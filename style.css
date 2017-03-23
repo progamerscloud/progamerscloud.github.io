@@ -49,6 +49,21 @@ sup { top: -0.5em; }
 
 sub { bottom: -0.25em; }
 
+/*material design content*/
+.mdl-layout {
+    align-items: center;
+  justify-content: center;
+}
+.mdl-layout__content {
+    padding: 24px;
+    flex: none;
+}
+.mdl-button {
+    margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
 /* Embedded content ========================================================================== */
 /** Remove border when inside `a` element in IE 8/9/10. */
 img { border: 0; }
